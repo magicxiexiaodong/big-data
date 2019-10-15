@@ -4,6 +4,10 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/hadoop/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/hive/pom.xml" />
+        <option value="$PROJECT_DIR$/azkaban/pom.xml" />
+        <option value="$PROJECT_DIR$/thread/pom.xml" />
       </list>
     </option>
   </component>

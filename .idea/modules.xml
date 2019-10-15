@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/azkaban/azkaban.iml" filepath="$PROJECT_DIR$/azkaban/azkaban.iml" />
       <module fileurl="file://$PROJECT_DIR$/big-data.iml" filepath="$PROJECT_DIR$/big-data.iml" />
       <module fileurl="file://$PROJECT_DIR$/hadoop/hadoop.iml" filepath="$PROJECT_DIR$/hadoop/hadoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hive/hive.iml" filepath="$PROJECT_DIR$/hive/hive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka/kafka.iml" filepath="$PROJECT_DIR$/kafka/kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thread/thread.iml" filepath="$PROJECT_DIR$/thread/thread.iml" />
     </modules>
   </component>
 </project>

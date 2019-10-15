@@ -30,8 +30,8 @@ public class FlowDriver {
         job.setOutputValueClass(FlowBean.class);
 
         //5. 设置输入输出路径
-        FileInputFormat.setInputPaths(job, new Path(args[0]));
-        FileOutputFormat.setOutputPath(job, new Path(args[1]));
+        FileInputFormat.setInputPaths(job, new Path("D:/input/flow/phone_data.txt"));
+        FileOutputFormat.setOutputPath(job, new Path("D:/output/flow"));
 
         //6. 提交
         boolean b = job.waitForCompletion(true);

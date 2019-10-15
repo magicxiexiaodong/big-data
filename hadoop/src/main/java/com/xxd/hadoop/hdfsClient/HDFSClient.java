@@ -20,7 +20,7 @@ public class HDFSClient {
 
     @Before
     public void before() throws IOException, InterruptedException {
-        fs = FileSystem.get(URI.create("hdfs://hadoop102:9000"),new Configuration(),"atguigu");
+        fs = FileSystem.get(URI.create("hdfs://10.228.83.181:9000"),new Configuration(),"hadoop");
         System.out.println("Before!!!!!!!!!!");
     }
 

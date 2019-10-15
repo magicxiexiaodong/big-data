@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="1500" />
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="azkaban" />
         <module name="hadoop" />
+        <module name="hive" />
+        <module name="kafka" />
+        <module name="thread" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="azkaban" target="1.8" />
       <module name="hadoop" target="1.8" />
+      <module name="hive" target="1.8" />
+      <module name="kafka" target="1.8" />
+      <module name="thread" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
