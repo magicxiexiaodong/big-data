@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/hive/pom.xml" />
         <option value="$PROJECT_DIR$/azkaban/pom.xml" />
         <option value="$PROJECT_DIR$/thread/pom.xml" />
+        <option value="$PROJECT_DIR$/kylin/pom.xml" />
       </list>
     </option>
   </component>

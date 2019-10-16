@@ -11,6 +11,7 @@
         <module name="hadoop" />
         <module name="hive" />
         <module name="kafka" />
+        <module name="kylin" />
         <module name="thread" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
       <module name="hadoop" target="1.8" />
       <module name="hive" target="1.8" />
       <module name="kafka" target="1.8" />
+      <module name="kylin" target="1.8" />
       <module name="thread" target="1.8" />
     </bytecodeTargetLevel>
   </component>
